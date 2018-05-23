@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/event_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/name"
+    android:textSize="18sp"
+   android:textColor="@color/black"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/event_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@+id/edit"
+        android:layout_alignStart="@+id/event_enddate" />
+    <TextView
+        android:id="@+id/event_startdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startdate"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/event_location"
+        android:layout_alignStart="@+id/event_location" />
+    <TextView
+        android:id="@+id/event_enddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enddate"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="17dp"
+        android:layout_marginStart="19dp"
+        android:layout_below="@+id/event_startdate"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/delete"
+        android:layout_alignTop="@+id/edit"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/edit"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="22dp"
+        android:layout_below="@+id/event_name"
+        android:layout_toStartOf="@+id/delete"
+        android:layout_marginTop="18dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#aaa"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/event_enddate"
+        />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="intro">Simple Calendar , Welcome !</string>
+    <string name="newUser1">Not a Member yet?</string>
+    <string name="newUser2">Sign Up here.</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="passowrd">Password</string>
+    <string name="oldUser1">Already have account ?</string>
+    <string name="oldUser2">Login here .</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="add_event">Add Event</string>
+    <!--<string name="name">Name Event </string>-->
+    <string name="name">Name Event</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="update">Update</string>
+    <string name="view_event">VIEW EVENTS</string>
+    <string name="add">Add</string>
+    <string name="endtime">End Time</string>
+    <string name="starttime">Start Time</string>
+    <string name="startdate">Start Date</string>
+    <string name="enddate">End Date</string>
+    <string name="location">Location</string>
+    <string name="startd">Start Date</string>
+    <string name="endd">End Date</string>
+</resources>
